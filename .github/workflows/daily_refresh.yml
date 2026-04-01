@@ -1,0 +1,44 @@
+name: Daily Stock Data Refresh
+
+# Runs every day at 6:00 AM UTC (adjust to your timezone)
+on:
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Also allows you to run it manually anytime
+  workflow_dispatch:
+
+jobs:
+  refresh_data:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Step 1 — Check out the repository so we can access files
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2 — Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # Step 3 — Install required libraries
+      - name: Install dependencies
+        run: |
+          pip install yfinance pandas requests
+
+      # Step 4 — Run the data extraction script
+      - name: Run stock data script
+        run: |
+          python fetch_top25_sp500.py
+
+      # Step 5 — Save the updated CSVs back to GitHub
+      - name: Commit and push updated CSVs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stock_prices.csv fundamentals.csv dim_stock.csv
+          git commit -m "Auto refresh — $(date '+%Y-%m-%d')"
+          git push
