@@ -27,7 +27,7 @@ jobs:
       # Step 3 — Install required libraries
       - name: Install dependencies
         run: |
-          pip install yfinance pandas requests
+          pip install yfinance pandas requests lxml
 
       # Step 4 — Run the data extraction script
       - name: Run stock data script
