@@ -1,12 +1,15 @@
 name: Daily Stock Data Refresh
 
-# Runs every day at 6:00 AM UTC (adjust to your timezone)
+# Runs every day at 6:00 AM UTC 
 on:
   schedule:
     - cron: '0 6 * * *'
 
-  # Also allows you to run it manually anytime
+  # To tigger manual workflow
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   refresh_data:
@@ -14,27 +17,29 @@ jobs:
 
     steps:
 
-      # Step 1 — Check out the repository so we can access files
+      # To check the repository for accessing the files
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 2 — Install Python
+      # Install Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # Step 3 — Install required libraries
+      # Install required libraries
       - name: Install dependencies
         run: |
           pip install yfinance pandas requests lxml
 
-      # Step 4 — Run the data extraction script
+      # Run the data extraction script
       - name: Run stock data script
         run: |
           python fetch_top25_sp500.py
 
-      # Step 5 — Save the updated CSVs back to GitHub
+      # Save the updated CSVs back to GitHub
       - name: Commit and push updated CSVs
         run: |
           git config --global user.name "github-actions[bot]"
