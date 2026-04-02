@@ -5,6 +5,29 @@
 
 ---
 
+## 📌 Table of Contents
+
+- [🎬 Demo](#-demo)
+- [🌟 Why I Built This](#-why-i-built-this)
+- [📸 Screenshots](#-screenshots)
+- [🎯 Skills Demonstrated](#-skills-demonstrated)
+- [⚙️ How It Works](#️-how-it-works)
+- [🚀 Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📐 Data Model](#-data-model)
+- [🧮 Key DAX Measures](#-key-dax-measures)
+- [🧠 Key Learnings & Challenges](#-key-learnings--challenges)
+- [⚠️ Limitations](#️-limitations)
+- [🔮 Future Enhancements](#-future-enhancements)
+- [📁 Repository Structure](#-repository-structure)
+- [🔄 Automated Pipeline Setup](#-automated-pipeline-setup)
+- [🏃 How to Run Locally](#-how-to-run-locally)
+- [📊 Data Sources](#-data-sources)
+- [👤 Author](#-author)
+- [📄 License](#-license)
+
+---
+
 ## 🎬 Demo
 
 [![MarketPulse Demo](screenshots/main_dashboard.png)](https://github.com/NK-Mikey/Stock-Market-Dashboard/raw/main/demo/marketpulse_demo.mp4)
@@ -56,7 +79,7 @@ daily with zero manual effort.
 
 ---
 
-## ⚙️ How It Works - Architecture
+## ⚙️ How It Works
 
 ```
 ┌─────────────────────────────────────────────────────┐
