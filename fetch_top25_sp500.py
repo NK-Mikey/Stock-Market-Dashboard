@@ -143,7 +143,7 @@ print(top25[["Ticker", "CompanyName", "Sector", "Market Cap"]].to_string(index=F
 # Define the date range for price history
 LOOKBACK_DAYS = 365 * 3 # Look back 3 years
 END_DATE = datetime.now() # End at today's date
-START_DATE = END_DATE - timedelta(days = LOOKBACK_DAYS) # Start from January 1st 2023
+START_DATE = END_DATE - timedelta(days = LOOKBACK_DAYS) 
 
 print(f"\nStep 4: Downloading historical prices from {START_DATE} to {END_DATE}...")
 
