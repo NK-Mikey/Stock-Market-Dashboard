@@ -351,7 +351,19 @@ Here are the real problems I solved along the way:
 <br>
 ✅ **Solution:** Built a custom Previous Price DAX using `ALL()` and explicit date filtering to always find the last available trading day regardless of calendar gaps - avoiding time intelligence functions that break on weekends and market holidays
 
-❌ **Problem:** Wikipedia blocked automated data requests with HTTP 403
+❌ Power BI sparklines silently failed with dynamic measures
+<br>
+✅ Discovered sparklines need physical calculated columns - not measures. Row context vs filter context finally clicked for me here.
+
+❌ Tried to build green/red sparklines for daily price trend
+<br>
+✅ After testing multiple approaches including Python charts, neither gave the dynamic behavior the dashboard needed. Made the decision to replace it with a cleaner price analysis visual instead - sometimes knowing when to pivot is more important than forcing a solution
+
+❌ Buttons and shapes appeared to be locked behind Power BI Pro license
+<br>
+✅ Built the sorting and date range selectors as tile-style slicers instead - same visual result, different approach. Interestingly, two days before completing the project I discovered the buttons had actually started working in the free version - a good reminder that tool limitations can change and staying curious pays off
+
+❌ **Problem:** Wikipedia blocked automated data requests with `HTTP 403`
 <br>
 ✅ **Solution:** Implemented browser-style User-Agent headers to bypass the block - a standard real-world web scraping technique
 
