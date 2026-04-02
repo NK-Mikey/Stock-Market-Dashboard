@@ -7,10 +7,10 @@
 
 ## 🎬 Demo
 
-https://github.com/user/stock-market-dashboard/blob/main/demo/marketpulse_demo.mp4
+[![MarketPulse Demo](screenshots/main_dashboard.png)](https://github.com/NK-Mikey/Stock-Market-Dashboard/raw/main/demo/marketpulse_demo.mp4)
 
-> ▶️ *Click the video above to watch a full walkthrough of the dashboard including
-> live filtering, drill-through, scatter plot analysis and date range switching.*
+> ▶️ *Click the video thumbnail above to download and watch a full walkthrough of the dashboard including
+> live filtering, visual interactions, scatter plot analysis and date range switching.*
 
 ---
 
@@ -19,13 +19,13 @@ https://github.com/user/stock-market-dashboard/blob/main/demo/marketpulse_demo.m
 Most stock dashboards either require expensive data subscriptions or only show
 static snapshots. I wanted to build something that:
 
-- **Looks and feels like a real financial terminal** — not a student project
-- **Updates automatically every day** without any manual intervention
-- **Tells a complete market story** — from individual stock performance down
+- **Looks and feels like a real financial terminal** - not a student project
+- **Data gets updated automatically every day** without any manual intervention
+- **Tells a complete market story** from individual stock performance down
   to sector-level risk and return analysis
-- **Uses only free tools** — Python, Power BI Desktop, GitHub Actions
+- **Uses only free tools** like Python, Power BI Desktop, GitHub Actions
 
-The result is **MarketPulse** — a fully automated market intelligence dashboard
+The result is **MarketPulse**, a fully automated market intelligence dashboard
 that tracks the **Top 25 S&P 500 companies** by market capitalization, refreshed
 daily with zero manual effort.
 
@@ -33,13 +33,13 @@ daily with zero manual effort.
 
 ## 📸 Screenshots
 
-| Main Dashboard | Risk vs Return |
-|---|---|
-| ![Main Dashboard](screenshots/01_main_dashboard.png) | ![Scatter Plot](screenshots/02_scatter_plot.png) |
+| Price & Volume Analysis |
+|---|
+| ![Price & Volume](screenshots/price_&_volume_analysis.png) |
 
-| Gainers vs Losers | Volume Analysis |
+| 7-Day Price Change | Risk vs Return |
 |---|---|
-| ![Bar Chart](screenshots/03_gainers_losers.png) | ![Volume](screenshots/04_volume_chart.png) |
+| ![Bar Chart](screenshots/7_day_price_change.png) | ![Scatter](screenshots/risk_vs_return.png) |
 
 ---
 
@@ -49,14 +49,14 @@ daily with zero manual effort.
 |---|---|
 | **Data Engineering** | ETL pipeline, API integration, automated scheduling |
 | **Data Modeling** | Star schema, DAX, calculated columns vs measures |
-| **Visualization** | Financial dashboard design, conditional formatting |
+| **Visualization** | Financial dashboard design, conditional formatting, waterfall analysis |
 | **Python** | pandas, yfinance, requests, data transformation |
 | **Tools** | Power BI Desktop, GitHub Actions, Git |
 | **Finance Domain** | Market cap, PE ratio, moving averages, volatility |
 
 ---
 
-## ⚙️ How It Works — Architecture
+## ⚙️ How It Works - Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -75,7 +75,7 @@ daily with zero manual effort.
 │   Updated CSVs committed back to GitHub             │
 │        │                                            │
 │        ▼                                            │
-│   Power BI Desktop reads latest CSVs               │
+│   Power BI Desktop reads latest CSVs                │
 │   → One click refresh → Dashboard updates           │
 └─────────────────────────────────────────────────────┘
 ```
@@ -97,18 +97,17 @@ A Yahoo Finance–style master table showing all 25 tickers with:
 | PE Ratio (TTM) | Trailing twelve months price-to-earnings ratio |
 | 52W High / Low | 52-week price range |
 | 52W Change % | Year-over-year performance |
-| Daily Sparkline | Micro trend chart showing 90-day daily change pattern |
 
-Includes **Top Gainers / Top Losers / Most Active** sorting — switchable
+Includes **Top Gainers / Top Losers / Most Active** sorting - switchable
 with one click using a tile slicer.
 
 ---
 
 ### 📉 Price Trend Chart with Moving Averages
-A dual-layer line chart showing:
-- **Current Price** — white line, primary focus
-- **30-Day Moving Average** — blue, short-term trend
-- **90-Day Moving Average** — orange, long-term trend
+A multi-layer line chart showing:
+- **Current Price** - white line, primary focus
+- **30-Day Moving Average** - blue, short-term trend
+- **90-Day Moving Average** - orange, long-term trend
 
 Paired with a **date range slicer** (3D / 7D / 1M / 6M / YTD / 1Y / All)
 that dynamically adjusts both charts simultaneously.
@@ -117,11 +116,11 @@ that dynamically adjusts both charts simultaneously.
 
 ### 📦 Volume Analysis Chart
 A combo chart tracking:
-- **Daily Volume** — column bars showing actual trading activity
-- **Running Volume High** — line showing the cumulative peak volume,
+- **Daily Volume** - column bars showing actual trading activity
+- **Running Volume High** - line showing the cumulative peak volume,
   persisting forward until a new high is reached
 
-This instantly flags unusual trading activity — a spike above the running
+This instantly flags unusual trading activity, a spike above the running
 high signals institutional interest or major market events.
 
 ---
@@ -129,23 +128,25 @@ high signals institutional interest or major market events.
 ### 🎯 Risk vs Return Scatter Plot
 Each of the 25 tickers plotted as a bubble where:
 - **X-axis** = Volatility (standard deviation of daily returns)
-- **Y-axis** = Total Return % since January 2023
-- **Bubble size** = Average 3-month trading volume
+- **Y-axis** = Total Return % of last 3 years
+- **Bubble size** = Trading volume of last 3 years
 - **Bubble color** = Sector (Technology, Healthcare, Financials etc.)
 
-A reference line splits the chart at average volatility — instantly showing
+A reference line splits the chart at average volatility by instantly showing
 which stocks delivered the best return for the least risk. This is the kind
 of analysis used in portfolio management and risk assessment.
 
 ---
 
-### 📊 Gainers vs Losers Bar Chart
-A horizontal bar chart ranking all 25 tickers by daily Change %:
-- 🟢 Green bars for positive movers
-- 🔴 Red bars for negative movers
+### 📊 7-Day Price Change Analysis
+A waterfall chart showing the cumulative price movement over the last 7 days:
+- 🟢 Green bars for positive daily movements
+- 🔴 Red bars for negative daily movements
+- Shows how each trading day contributed to the overall 7-day price change
 
-Gives an instant full-market snapshot that communicates performance
-across all stocks in under 2 seconds — something the table cannot do alone.
+This makes it easy to see not just the total weekly change but exactly
+which days drove the gains or losses — giving context that a simple
+percentage number cannot.
 
 ---
 
@@ -157,7 +158,7 @@ Switch between time periods with one click:
 ```
 
 All charts update simultaneously. Built using a disconnected DAX table
-and dynamic filter measures — no Pro license required.
+and dynamic filter measures as no Pro license required.
 
 ---
 
@@ -177,10 +178,13 @@ and dynamic filter measures — no Pro license required.
 
 ## 📐 Data Model
 
-The core data model follows a **star schema** — the industry standard
-for analytical data modeling. Two additional disconnected tables sit
-outside the schema to power interactive UI features without affecting
-the data relationships.
+The core data model follows a **snowflake schema**, an extension of the
+star schema where dimension tables are further normalized. Fundamentals
+are linked to Dim_Stock which connects to the main fact table, keeping
+company metadata and financial fundamentals cleanly separated.
+Dim_Date connects directly to the fact table as a standard date dimension.
+Two additional disconnected tables sit outside the schema to power
+interactive UI features without affecting the core data relationships.
 
 ```
                     ┌──────────────┐
@@ -198,30 +202,26 @@ the data relationships.
                            │ *
               ┌────────────▼──────────────┐
               │       stock_prices        │◄───────────┐
-              │───────────────────────────│            │
-              │ Date                      │            │ *
-              │ Ticker                    │   ┌────────┴──────┐
-              │ Open                      │   │   Dim_Stock   │
-              │ High                      │   │───────────────│
-              │ Low                       │   │ StockID       │
-              │ Close                     │   │ Ticker      1 │
-              │ Volume                    │   │ CompanyName   │
-              │ Previous Close (Col)      │   │ Sector        │
-              │ Daily Change (Col)        │   │ Industry      │
-              │ Daily Return (Col)        │   └───────────────┘
-              └───────────────────────────┘
-                           │ *
-                           │
-                           │ 1
-                    ┌──────┴────────┐
-                    │ Fundamentals  │
-                    │───────────────│
-                    │ Ticker        │
-                    │ Company Name  │
-                    │ Market Cap    │
-                    │ PE Ratio(TTM) │
-                    │ Avg Vol (3M)  │
-                    └───────────────┘
+              │───────────────────────────│   *        │
+              │ Date                      │            │ 1
+              │ Ticker                    │   ┌────────┴──────────┐
+              │ Open                      │   │    Dim_Stock      │
+              │ High                      │   │───────────────────│
+              │ Low                       │   │ StockID           │   
+              │ Close                     │   │ Ticker            │◄───┐
+              │ Volume                    │   │ CompanyName       │  1 │ 
+              │ Previous Close (Col)      │   │ Sector            │    │ 
+              │ Daily Change (Col)        │   │ Industry          │    │
+              │ Daily Return (Col)        │   └───────────────────┘    │ 1
+              └───────────────────────────┘               ┌────────────┴──┐
+                                                          │ Fundamentals  │
+                                                          │───────────────│
+                                                          │ Ticker        │
+                                                          │ Company Name  │
+                                                          │ Market Cap    │
+                                                          │ PE Ratio(TTM) │
+                                                          │ Avg Vol (3M)  │
+                                                          └───────────────┘
 
 
   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
@@ -242,7 +242,7 @@ the data relationships.
 
 > **Why disconnected tables?**
 > These tables are intentionally not linked to the star schema.
-> They act as parameter inputs — DAX measures read their selected
+> They act as parameter inputs where DAX measures read their selected
 > values via `SELECTEDVALUE()` to dynamically control filtering
 > and sorting without modifying the underlying data model.
 > This is a standard Power BI design pattern for interactive dashboards.
@@ -252,21 +252,17 @@ the data relationships.
 ## 🧮 Key DAX Measures
 
 ```dax
--- Previous Close (handles weekends and market holidays)
-Previous Close =
+-- Previous Price (handles weekends and market holidays)
+Previous Price =
 VAR CurrDate = MAX(stock_prices[Date])
 VAR CurrTicker = SELECTEDVALUE(stock_prices[Ticker])
+
 VAR PrevDate =
     CALCULATE(
         MAX(stock_prices[Date]),
-        TOPN(
-            1,
-            FILTER(
-                stock_prices,
-                stock_prices[Ticker] = CurrTicker &&
-                stock_prices[Date] < CurrDate
-            ),
-            stock_prices[Date], DESC
+        FILTER(
+            ALL(stock_prices),
+            stock_prices[Date] < CurrDate
         )
     )
 RETURN
@@ -297,13 +293,18 @@ CALCULATE(
     ALL(stock_prices[Date])
 )
 
--- Dynamic Sort (powers Top Gainers / Losers / Most Active slicer)
-Dynamic Sort =
+-- Dynamic Sort measure (renamed to " " in Power BI to hide it visually)
+-- Powers the Top Gainers / Top Losers / Most Active slicer sorting
+" " =
+VAR SelectedOption =
+    SELECTEDVALUE('Sort Selector'[Sort Type])
+
+RETURN
 SWITCH(
-    SELECTEDVALUE('Sort Selector'[Sort Type], "Top Gainers"),
+    SelectedOption,
     "Top Gainers",  [Change %],
     "Top Losers",  -[Change %],
-    "Most Active",  [Volume],
+    "Most Active",  [Volume (Measure)],
     [Change %]
 )
 
@@ -324,26 +325,16 @@ This project pushed me well beyond standard tutorials.
 Here are the real problems I solved along the way:
 
 ❌ **Problem:** `DATEADD` broke on weekends and market holidays
-✅ **Solution:** Built a custom previous-close DAX using `TOPN` to always
-find the last available trading day regardless of calendar gaps —
-the same logic used in professional financial BI systems
-
-❌ **Problem:** Power BI sparklines silently failed with dynamic measures
-✅ **Solution:** Discovered that sparklines require physical calculated
-columns rather than measures — leading to a deeper understanding
-of row context vs filter context in DAX
+<br>
+✅ **Solution:** Built a custom Previous Price DAX using `ALL()` and explicit date filtering to always find the last available trading day regardless of calendar gaps - avoiding time intelligence functions that break on weekends and market holidays
 
 ❌ **Problem:** Wikipedia blocked automated data requests with HTTP 403
-✅ **Solution:** Implemented browser-style User-Agent headers to bypass
-the block — a standard real-world web scraping technique
+<br>
+✅ **Solution:** Implemented browser-style User-Agent headers to bypass the block - a standard real-world web scraping technique
 
 ❌ **Problem:** GitHub Actions failed with "nothing to commit" error
-✅ **Solution:** Added conditional `git diff` logic to exit cleanly
-when market data hasn't changed — pipeline never breaks on non-trading days
-
-❌ **Problem:** Power BI Free version hides selected slicer state formatting
-✅ **Solution:** Applied a custom dark theme JSON file that controls
-all visual states globally — including slicer selected/unselected colors
+<br>
+✅ **Solution:** Added conditional `git diff` logic to exit cleanly when market data hasn't changed - pipeline never breaks on non-trading days
 
 ---
 
@@ -364,16 +355,16 @@ stock-market-dashboard/
 │   └── dim_stock.csv             # Company name, sector, industry
 │
 ├── 📁 screenshots/
-│   ├── 01_main_dashboard.png
-│   ├── 02_scatter_plot.png
-│   ├── 03_gainers_losers.png
-│   └── 04_volume_chart.png
+│   ├── main_dashboard.png
+│   ├── 7_day_price_change.png
+│   ├── risk_vs_return.png
+│   └── price_&_volume_analysis.png
 │
 ├── 📁 demo/
 │   └── marketpulse_demo.mp4      # Full dashboard walkthrough video
 │
 ├── 📄 MarketPulse.pbix           # Power BI dashboard file
-├── 📄 StockDashboard_DarkTheme.json  # Custom Power BI dark theme
+├── 📄 LICENSE                    # MIT license
 └── 📄 README.md
 ```
 
@@ -382,7 +373,7 @@ stock-market-dashboard/
 ## 🔄 Automated Pipeline Setup
 
 The data pipeline runs automatically every day at **6:00 AM UTC** via
-GitHub Actions — no manual intervention required:
+GitHub Actions and no manual intervention required:
 
 1. GitHub spins up a virtual Ubuntu machine
 2. Python and required libraries are installed
@@ -439,10 +430,10 @@ Press Alt + F5 to refresh data
 
 ## 👤 Author
 
-**Your Name**
-📧 your.email@gmail.com
-💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-🐙 [GitHub](https://github.com/yourusername)
+**Naveen Karan Krishna**
+📧 naveenxkaran@gmail.com
+💼 [LinkedIn](https://www.linkedin.com/in/naveen-karan-krishna/)
+🐙 [GitHub](https://github.com/NK-Mikey)
 
 ---
 
