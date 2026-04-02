@@ -338,6 +338,43 @@ Here are the real problems I solved along the way:
 
 ---
 
+## ⚠️ Limitations
+
+- **Manual dashboard refresh** - Power BI Free does not support scheduled
+  cloud refresh. The user must open the .pbix file and press `Alt + F5`
+  after the daily pipeline runs to get the latest data
+- **End-of-day data only** - yfinance provides closing prices only,
+  not live intraday prices
+- **US markets only** - currently tracks S&P 500 companies listed on
+  NYSE and NASDAQ only
+- **No live sharing** - without Power BI Pro the dashboard cannot be
+  published as a live shareable link
+- **yfinance data gaps** - Yahoo Finance occasionally returns incomplete
+  or missing data for certain tickers without warning
+
+---
+
+## 🔮 Future Enhancements
+
+- [ ] **Full S&P 500 coverage** - scale to all 503 companies with
+      sector-level drill-through pages
+- [ ] **Intraday price updates** - integrate Alpha Vantage or Polygon.io
+      for live price refreshes during market hours
+- [ ] **Portfolio simulator** - allow users to input a custom watchlist
+      and track simulated portfolio performance over time
+- [ ] **Earnings calendar** - add upcoming earnings dates per ticker
+      to help anticipate volatility windows
+- [ ] **News sentiment analysis** - pull headlines per ticker via a
+      free news API and display a daily sentiment score
+- [ ] **Mobile optimised layout** - design a second report page
+      specifically for Power BI mobile app viewing
+- [ ] **Daily email digest** - automate a summary of top movers
+      via Python and Gmail SMTP
+- [ ] **Streamlit web version** - rebuild as a publicly shareable
+      web app for broader access without Power BI Desktop
+
+---
+
 ## 📁 Repository Structure
 
 ```
