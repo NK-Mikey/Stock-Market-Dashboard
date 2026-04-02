@@ -255,14 +255,14 @@ print("\nStep 7: Saving CSV files...")
 
 # Save each table as a CSV file in the current folder
 # index=False means don't add an extra row number column in the file
-stock_prices_df.to_csv("stock_prices.csv", index=False)   # Daily price history
-fundamentals_df.to_csv("fundamentals.csv", index=False)   # Company fundamentals
-dim_stock.to_csv("dim_stock.csv", index=False)             # Company dimension table
+stock_prices_df.to_csv("data/stock_prices.csv", index=False)   # Daily price history
+fundamentals_df.to_csv("data/fundamentals.csv", index=False)   # Company fundamentals
+dim_stock.to_csv("data/dim_stock.csv", index=False)             # Company dimension table
 
 print("\n All files saved successfully:")
-print("   stock_prices.csv  — Daily OHLCV price data for all 25 tickers")
-print("   fundamentals.csv  — Market cap, PE ratio, avg volume per company")
-print("   dim_stock.csv     — Company name, sector, industry lookup table")
+print("   data/stock_prices.csv  — Daily OHLCV price data for all 25 tickers")
+print("   data/fundamentals.csv  — Market cap, PE ratio, avg volume per company")
+print("   data/dim_stock.csv     — Company name, sector, industry lookup table")
 
 
 # PREVIEW — Showing a sample of the output so we can quickly verify the data
