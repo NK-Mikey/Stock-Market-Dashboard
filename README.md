@@ -437,6 +437,13 @@ Press Alt + F5 to refresh data
 
 ---
 
+## 📄 License
+
+This project is licensed under the **MIT License** - feel free to use,
+modify and distribute this project as long as the original author is credited.
+
+---
+
 ## ⭐ If you found this project interesting, please consider giving it a star!
 
 ---
