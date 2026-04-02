@@ -1,11 +1,11 @@
 name: Daily Stock Data Refresh
 
-# Runs every day at 6:00 AM UTC 
+# Schedule the workflow to run automatically every day at 6:00 AM UTC
 on:
   schedule:
     - cron: '0 6 * * *'
 
-  # To tigger manual workflow
+  # Allows manual trigger from the GitHub Actions tab without waiting for the schedule
   workflow_dispatch:
 
 permissions:
@@ -17,15 +17,15 @@ jobs:
 
     steps:
 
-      # To check the repository for accessing the files
+      # Clone the repository into the virtual machine so the workflow can access and modify its files
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Install Python
+      # Set up the specified Python version on the virtual machine
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -44,5 +44,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add stock_prices.csv fundamentals.csv dim_stock.csv
+          git add data/stock_prices.csv data/fundamentals.csv data/dim_stock.csv
           git diff --staged --quiet && echo "No changes to commit" || (git commit -m "Auto refresh — $(date '+%Y-%m-%d')" && git push)
