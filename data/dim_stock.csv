@@ -18,9 +18,9 @@ StockID,Ticker,CompanyName,Sector,Industry
 17,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
 18,MA,Mastercard,Financials,Transaction & Payment Processing Services
 19,ORCL,Oracle Corporation,Information Technology,Application Software
-20,MU,Micron Technology,Information Technology,Semiconductors
-21,NFLX,Netflix,Communication Services,Movies & Entertainment
+20,NFLX,Netflix,Communication Services,Movies & Entertainment
+21,MU,Micron Technology,Information Technology,Semiconductors
 22,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
 23,ABBV,AbbVie,Health Care,Biotechnology
-24,BAC,Bank of America,Financials,Diversified Banks
-25,PLTR,Palantir Technologies,Information Technology,Application Software
+24,PLTR,Palantir Technologies,Information Technology,Application Software
+25,AMD,Advanced Micro Devices,Information Technology,Semiconductors
