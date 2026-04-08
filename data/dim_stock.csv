@@ -22,5 +22,5 @@ StockID,Ticker,CompanyName,Sector,Industry
 21,ORCL,Oracle Corporation,Information Technology,Application Software
 22,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
 23,ABBV,AbbVie,Health Care,Biotechnology
-24,BAC,Bank of America,Financials,Diversified Banks
-25,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+24,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+25,BAC,Bank of America,Financials,Diversified Banks
