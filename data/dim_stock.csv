@@ -1,8 +1,8 @@
 StockID,Ticker,CompanyName,Sector,Industry
 1,NVDA,Nvidia,Information Technology,Semiconductors
-2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
-3,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
-4,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
+2,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
+3,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
+4,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
 5,MSFT,Microsoft,Information Technology,Systems Software
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
 7,AVGO,Broadcom,Information Technology,Semiconductors
@@ -15,12 +15,12 @@ StockID,Ticker,CompanyName,Sector,Industry
 14,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 15,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 16,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
-17,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
-18,MA,Mastercard,Financials,Transaction & Payment Processing Services
-19,MU,Micron Technology,Information Technology,Semiconductors
+17,MU,Micron Technology,Information Technology,Semiconductors
+18,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
+19,MA,Mastercard,Financials,Transaction & Payment Processing Services
 20,NFLX,Netflix,Communication Services,Movies & Entertainment
 21,ORCL,Oracle Corporation,Information Technology,Application Software
 22,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
-23,ABBV,AbbVie,Health Care,Biotechnology
-24,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+23,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+24,ABBV,AbbVie,Health Care,Biotechnology
 25,BAC,Bank of America,Financials,Diversified Banks
