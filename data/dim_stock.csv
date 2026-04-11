@@ -16,11 +16,11 @@ StockID,Ticker,CompanyName,Sector,Industry
 15,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 16,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 17,MU,Micron Technology,Information Technology,Semiconductors
-18,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
-19,MA,Mastercard,Financials,Transaction & Payment Processing Services
+18,MA,Mastercard,Financials,Transaction & Payment Processing Services
+19,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
 20,NFLX,Netflix,Communication Services,Movies & Entertainment
-21,ORCL,Oracle Corporation,Information Technology,Application Software
-22,AMD,Advanced Micro Devices,Information Technology,Semiconductors
-23,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
-24,BAC,Bank of America,Financials,Diversified Banks
-25,ABBV,AbbVie,Health Care,Biotechnology
+21,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+22,ORCL,Oracle Corporation,Information Technology,Application Software
+23,BAC,Bank of America,Financials,Diversified Banks
+24,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
+25,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
