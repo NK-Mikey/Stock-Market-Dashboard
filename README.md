@@ -432,6 +432,9 @@ stock-market-dashboard/
 │   ├── risk_vs_return.png
 │   └── price_&_volume_analysis.png
 │
+├── 📁 docs/
+│   ├── marketpulse_documentation.md
+│
 ├── 📁 demo/
 │   └── marketpulse_demo.mp4      # Full dashboard walkthrough video
 │
