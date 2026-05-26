@@ -168,27 +168,41 @@ for ticker in TICKERS:
         # Extract the data for this specific ticker
         df = raw_data[ticker].copy()
 
-        # Move the Date from the index into a regular column
+        # Handle MultiIndex columns if Yahoo returns them
+        if isinstance(df.columns, pd.MultiIndex):
+            df.columns = df.columns.get_level_values(0)
+
+        # Move the index into a normal column
         df.reset_index(inplace=True)
 
-        # Add a column so we know which ticker this row belongs to
+        # Rename first column to Date if needed
+        first_column = df.columns[0]
+
+        if first_column != "Date":
+            df.rename(columns={first_column: "Date"}, inplace=True)
+
+        # Add ticker column
         df["Ticker"] = ticker
 
-        # Keep only the columns we need for Power BI
+        # Keep only required columns
         df = df[["Date", "Ticker", "Open", "High", "Low", "Close", "Volume"]]
 
-        # Remove any rows where the Close price is missing (data gaps)
+        # Remove rows with missing Close prices
         df.dropna(subset=["Close"], inplace=True)
 
-        # Add this ticker's data to our collection
+        # Save dataframe
         all_stocks.append(df)
 
+        print(f"  Downloaded {ticker}")
+
     except Exception as e:
-        # If a ticker fails for any reason, skip it and note why
         print(f"  Skipping {ticker}: {e}")
 
 # Stack all 25 individual tables into one big table
 # ignore_index=True resets the row numbers cleanly
+if not all_stocks:
+    raise ValueError("No stock data was successfully downloaded.")
+
 stock_prices_df = pd.concat(all_stocks, ignore_index=True)
 
 # Convert the Date column to a clean date format (removes any time portion)
