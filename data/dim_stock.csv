@@ -20,7 +20,7 @@ StockID,Ticker,CompanyName,Sector,Industry
 19,INTC,Intel,Information Technology,Semiconductors
 20,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 21,CSCO,Cisco,Information Technology,Communications Equipment
-22,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
-23,MA,Mastercard,Financials,Transaction & Payment Processing Services
-24,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
-25,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
+22,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
+23,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
+24,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
+25,MA,Mastercard,Financials,Transaction & Payment Processing Services
