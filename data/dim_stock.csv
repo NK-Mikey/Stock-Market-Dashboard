@@ -1,13 +1,13 @@
 StockID,Ticker,CompanyName,Sector,Industry
 1,NVDA,Nvidia,Information Technology,Semiconductors
-2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
-3,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
-4,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
+2,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
+3,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
+4,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
 5,MSFT,Microsoft,Information Technology,Systems Software
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
 7,AVGO,Broadcom,Information Technology,Semiconductors
-8,META,Meta Platforms,Communication Services,Interactive Media & Services
-9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
+8,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
+9,META,Meta Platforms,Communication Services,Interactive Media & Services
 10,MU,Micron Technology,Information Technology,Semiconductors
 11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
 12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
@@ -18,9 +18,9 @@ StockID,Ticker,CompanyName,Sector,Industry
 17,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 19,XOM,ExxonMobil,Energy,Integrated Oil & Gas
-20,CSCO,Cisco,Information Technology,Communications Equipment
+20,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
 21,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
-22,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
-23,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
+22,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
+23,CSCO,Cisco,Information Technology,Communications Equipment
 24,ORCL,Oracle Corporation,Information Technology,Application Software
 25,MA,Mastercard,Financials,Transaction & Payment Processing Services
