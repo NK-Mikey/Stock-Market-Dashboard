@@ -1,8 +1,8 @@
 StockID,Ticker,CompanyName,Sector,Industry
 1,NVDA,Nvidia,Information Technology,Semiconductors
-2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
-3,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
-4,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
+2,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
+3,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
+4,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
 5,MSFT,Microsoft,Information Technology,Systems Software
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
 7,AVGO,Broadcom,Information Technology,Semiconductors
@@ -22,5 +22,5 @@ StockID,Ticker,CompanyName,Sector,Industry
 21,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
 22,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
 23,CSCO,Cisco,Information Technology,Communications Equipment
-24,ABBV,AbbVie,Health Care,Biotechnology
-25,MA,Mastercard,Financials,Transaction & Payment Processing Services
+24,MA,Mastercard,Financials,Transaction & Payment Processing Services
+25,ABBV,AbbVie,Health Care,Biotechnology
