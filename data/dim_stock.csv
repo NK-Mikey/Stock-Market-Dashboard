@@ -9,16 +9,16 @@ StockID,Ticker,CompanyName,Sector,Industry
 8,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 9,META,Meta Platforms,Communication Services,Interactive Media & Services
 10,MU,Micron Technology,Information Technology,Semiconductors
-11,LLY,Lilly (Eli),Health Care,Pharmaceuticals
-12,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-13,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-14,JPM,JPMorgan Chase,Financials,Diversified Banks
-15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
+12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
+13,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
+15,JPM,JPMorgan Chase,Financials,Diversified Banks
 16,INTC,Intel,Information Technology,Semiconductors
 17,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
-19,XOM,ExxonMobil,Energy,Integrated Oil & Gas
-20,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+19,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+20,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 21,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
 22,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
 23,CSCO,Cisco,Information Technology,Communications Equipment
