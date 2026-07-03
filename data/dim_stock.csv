@@ -1,26 +1,26 @@
 StockID,Ticker,CompanyName,Sector,Industry
 1,NVDA,Nvidia,Information Technology,Semiconductors
-2,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
-3,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
-4,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
+2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
+3,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
+4,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
 5,MSFT,Microsoft,Information Technology,Systems Software
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
 7,AVGO,Broadcom,Information Technology,Semiconductors
-8,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
-9,META,Meta Platforms,Communication Services,Interactive Media & Services
+8,META,Meta Platforms,Communication Services,Interactive Media & Services
+9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,MU,Micron Technology,Information Technology,Semiconductors
 11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
 12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
 13,JPM,JPMorgan Chase,Financials,Diversified Banks
-14,AMD,Advanced Micro Devices,Information Technology,Semiconductors
-15,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-16,CRWD,CrowdStrike,Information Technology,Systems Software
-17,V,Visa Inc.,Financials,Transaction & Payment Processing Services
+14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
+15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
+17,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 18,INTC,Intel,Information Technology,Semiconductors
-19,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
-20,XOM,ExxonMobil,Energy,Integrated Oil & Gas
-21,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
-22,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
-23,MA,Mastercard,Financials,Transaction & Payment Processing Services
-24,CSCO,Cisco,Information Technology,Communications Equipment
-25,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
+19,XOM,ExxonMobil,Energy,Integrated Oil & Gas
+20,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+21,MA,Mastercard,Financials,Transaction & Payment Processing Services
+22,ABBV,AbbVie,Health Care,Biotechnology
+23,CSCO,Cisco,Information Technology,Communications Equipment
+24,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
+25,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
