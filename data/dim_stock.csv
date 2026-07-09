@@ -9,18 +9,18 @@ StockID,Ticker,CompanyName,Sector,Industry
 8,META,Meta Platforms,Communication Services,Interactive Media & Services
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,LLY,Lilly (Eli),Health Care,Pharmaceuticals
-11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-12,MU,Micron Technology,Information Technology,Semiconductors
-13,JPM,JPMorgan Chase,Financials,Diversified Banks
-14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
+11,MU,Micron Technology,Information Technology,Semiconductors
+12,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
+13,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
+14,JPM,JPMorgan Chase,Financials,Diversified Banks
 15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
 16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 17,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 18,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 19,INTC,Intel,Information Technology,Semiconductors
 20,MA,Mastercard,Financials,Transaction & Payment Processing Services
-21,ABBV,AbbVie,Health Care,Biotechnology
+21,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
 22,CSCO,Cisco,Information Technology,Communications Equipment
-23,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+23,ABBV,AbbVie,Health Care,Biotechnology
 24,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
-25,BAC,Bank of America,Financials,Diversified Banks
+25,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
