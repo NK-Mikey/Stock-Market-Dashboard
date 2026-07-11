@@ -9,11 +9,11 @@ StockID,Ticker,CompanyName,Sector,Industry
 8,META,Meta Platforms,Communication Services,Interactive Media & Services
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,MU,Micron Technology,Information Technology,Semiconductors
-11,LLY,Lilly (Eli),Health Care,Pharmaceuticals
-12,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-13,JPM,JPMorgan Chase,Financials,Diversified Banks
+11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
+12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
+13,AMD,Advanced Micro Devices,Information Technology,Semiconductors
 14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+15,JPM,JPMorgan Chase,Financials,Diversified Banks
 16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 17,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 18,XOM,ExxonMobil,Energy,Integrated Oil & Gas
@@ -21,6 +21,6 @@ StockID,Ticker,CompanyName,Sector,Industry
 20,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
 21,CSCO,Cisco,Information Technology,Communications Equipment
 22,MA,Mastercard,Financials,Transaction & Payment Processing Services
-23,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
+23,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
 24,ABBV,AbbVie,Health Care,Biotechnology
-25,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
+25,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
