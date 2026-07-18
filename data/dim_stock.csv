@@ -12,15 +12,15 @@ StockID,Ticker,CompanyName,Sector,Industry
 11,LLY,Lilly (Eli),Health Care,Pharmaceuticals
 12,MU,Micron Technology,Information Technology,Semiconductors
 13,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-14,JPM,JPMorgan Chase,Financials,Diversified Banks
-15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
-16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
-17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
-18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
-19,INTC,Intel,Information Technology,Semiconductors
-20,MA,Mastercard,Financials,Transaction & Payment Processing Services
-21,ABBV,AbbVie,Health Care,Biotechnology
+14,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+15,XOM,ExxonMobil,Energy,Integrated Oil & Gas
+16,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
+17,MA,Mastercard,Financials,Transaction & Payment Processing Services
+18,INTC,Intel,Information Technology,Semiconductors
+19,ABBV,AbbVie,Health Care,Biotechnology
+20,CSCO,Cisco,Information Technology,Communications Equipment
+21,BAC,Bank of America,Financials,Diversified Banks
 22,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
-23,BAC,Bank of America,Financials,Diversified Banks
-24,CSCO,Cisco,Information Technology,Communications Equipment
-25,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
+23,CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment
+24,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
+25,ORCL,Oracle Corporation,Information Technology,Application Software
