@@ -8,19 +8,19 @@ StockID,Ticker,CompanyName,Sector,Industry
 7,AVGO,Broadcom,Information Technology,Semiconductors
 8,META,Meta Platforms,Communication Services,Interactive Media & Services
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
-10,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-11,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-12,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
-13,INTC,Intel,Information Technology,Semiconductors
-14,ABBV,AbbVie,Health Care,Biotechnology
-15,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
-16,CSCO,Cisco,Information Technology,Communications Equipment
-17,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
-18,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
-19,UNH,UnitedHealth Group,Health Care,Managed Health Care
-20,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
-21,ORCL,Oracle Corporation,Information Technology,Application Software
-22,GE,GE Aerospace,Industrials,Aerospace & Defense
-23,MS,Morgan Stanley,Financials,Investment Banking & Brokerage
-24,PLTR,Palantir Technologies,Information Technology,Application Software
-25,GEV,GE Vernova,Industrials,Heavy Electrical Equipment
+10,MU,Micron Technology,Information Technology,Semiconductors
+11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
+12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
+13,JPM,JPMorgan Chase,Financials,Diversified Banks
+14,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+15,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
+16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
+17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
+18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
+19,INTC,Intel,Information Technology,Semiconductors
+20,MA,Mastercard,Financials,Transaction & Payment Processing Services
+21,ABBV,AbbVie,Health Care,Biotechnology
+22,CSCO,Cisco,Information Technology,Communications Equipment
+23,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+24,BAC,Bank of America,Financials,Diversified Banks
+25,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
