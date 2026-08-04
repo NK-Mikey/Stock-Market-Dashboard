@@ -1,26 +1,26 @@
 StockID,Ticker,CompanyName,Sector,Industry
 1,NVDA,Nvidia,Information Technology,Semiconductors
-2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
+2,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
 3,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
-4,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
+4,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
 5,MSFT,Microsoft,Information Technology,Systems Software
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
 7,AVGO,Broadcom,Information Technology,Semiconductors
 8,META,Meta Platforms,Communication Services,Interactive Media & Services
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-11,LLY,Lilly (Eli),Health Care,Pharmaceuticals
-12,JPM,JPMorgan Chase,Financials,Diversified Banks
-13,MU,Micron Technology,Information Technology,Semiconductors
-14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
-16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
-17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
-18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
-19,MA,Mastercard,Financials,Transaction & Payment Processing Services
-20,CSCO,Cisco,Information Technology,Communications Equipment
-21,INTC,Intel,Information Technology,Semiconductors
-22,ABBV,AbbVie,Health Care,Biotechnology
-23,BAC,Bank of America,Financials,Diversified Banks
-24,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
-25,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+11,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
+12,V,Visa Inc.,Financials,Transaction & Payment Processing Services
+13,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
+14,MA,Mastercard,Financials,Transaction & Payment Processing Services
+15,INTC,Intel,Information Technology,Semiconductors
+16,CSCO,Cisco,Information Technology,Communications Equipment
+17,BAC,Bank of America,Financials,Diversified Banks
+18,ABBV,AbbVie,Health Care,Biotechnology
+19,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
+20,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+21,ORCL,Oracle Corporation,Information Technology,Application Software
+22,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
+23,GE,GE Aerospace,Industrials,Aerospace & Defense
+24,UNH,UnitedHealth Group,Health Care,Managed Health Care
+25,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages
