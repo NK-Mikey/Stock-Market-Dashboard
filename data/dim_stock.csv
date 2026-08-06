@@ -1,8 +1,8 @@
 StockID,Ticker,CompanyName,Sector,Industry
 1,NVDA,Nvidia,Information Technology,Semiconductors
-2,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
-3,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
-4,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
+2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
+3,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
+4,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
 5,MSFT,Microsoft,Information Technology,Systems Software
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
 7,AVGO,Broadcom,Information Technology,Semiconductors
@@ -16,11 +16,11 @@ StockID,Ticker,CompanyName,Sector,Industry
 15,MA,Mastercard,Financials,Transaction & Payment Processing Services
 16,CSCO,Cisco,Information Technology,Communications Equipment
 17,BAC,Bank of America,Financials,Diversified Banks
-18,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
-19,ABBV,AbbVie,Health Care,Biotechnology
+18,ABBV,AbbVie,Health Care,Biotechnology
+19,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
 20,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
 21,ORCL,Oracle Corporation,Information Technology,Application Software
-22,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
-23,GE,GE Aerospace,Industrials,Aerospace & Defense
+22,GE,GE Aerospace,Industrials,Aerospace & Defense
+23,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
 24,PLTR,Palantir Technologies,Information Technology,Application Software
-25,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
+25,UNH,UnitedHealth Group,Health Care,Managed Health Care
