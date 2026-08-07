@@ -9,18 +9,18 @@ StockID,Ticker,CompanyName,Sector,Industry
 8,META,Meta Platforms,Communication Services,Interactive Media & Services
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-11,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-12,V,Visa Inc.,Financials,Transaction & Payment Processing Services
-13,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
-14,INTC,Intel,Information Technology,Semiconductors
-15,MA,Mastercard,Financials,Transaction & Payment Processing Services
-16,CSCO,Cisco,Information Technology,Communications Equipment
-17,BAC,Bank of America,Financials,Diversified Banks
-18,ABBV,AbbVie,Health Care,Biotechnology
-19,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
-20,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
-21,ORCL,Oracle Corporation,Information Technology,Application Software
-22,GE,GE Aerospace,Industrials,Aerospace & Defense
-23,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
-24,PLTR,Palantir Technologies,Information Technology,Application Software
-25,UNH,UnitedHealth Group,Health Care,Managed Health Care
+11,LLY,Lilly (Eli),Health Care,Pharmaceuticals
+12,MU,Micron Technology,Information Technology,Semiconductors
+13,JPM,JPMorgan Chase,Financials,Diversified Banks
+14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
+15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
+17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
+18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
+19,MA,Mastercard,Financials,Transaction & Payment Processing Services
+20,INTC,Intel,Information Technology,Semiconductors
+21,CSCO,Cisco,Information Technology,Communications Equipment
+22,BAC,Bank of America,Financials,Diversified Banks
+23,ABBV,AbbVie,Health Care,Biotechnology
+24,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
+25,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
