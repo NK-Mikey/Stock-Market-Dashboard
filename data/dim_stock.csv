@@ -15,12 +15,12 @@ StockID,Ticker,CompanyName,Sector,Industry
 14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
 15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
 16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
-17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
-18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
+17,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
+18,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 19,MA,Mastercard,Financials,Transaction & Payment Processing Services
 20,INTC,Intel,Information Technology,Semiconductors
 21,ABBV,AbbVie,Health Care,Biotechnology
 22,PLTR,Palantir Technologies,Information Technology,Application Software
 23,BAC,Bank of America,Financials,Diversified Banks
-24,CSCO,Cisco,Information Technology,Communications Equipment
-25,ORCL,Oracle Corporation,Information Technology,Application Software
+24,ORCL,Oracle Corporation,Information Technology,Application Software
+25,CSCO,Cisco,Information Technology,Communications Equipment
