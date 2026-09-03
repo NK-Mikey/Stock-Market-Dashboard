@@ -22,5 +22,5 @@ StockID,Ticker,CompanyName,Sector,Industry
 21,ABBV,AbbVie,Health Care,Biotechnology
 22,BAC,Bank of America,Financials,Diversified Banks
 23,CSCO,Cisco,Information Technology,Communications Equipment
-24,PLTR,Palantir Technologies,Information Technology,Application Software
-25,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
+24,ORCL,Oracle Corporation,Information Technology,Application Software
+25,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
