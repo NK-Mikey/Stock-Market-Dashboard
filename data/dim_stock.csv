@@ -12,8 +12,8 @@ StockID,Ticker,CompanyName,Sector,Industry
 11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
 12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
 13,JPM,JPMorgan Chase,Financials,Diversified Banks
-14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
-15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+14,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+15,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
 16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
