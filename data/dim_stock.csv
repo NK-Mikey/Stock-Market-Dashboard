@@ -20,7 +20,7 @@ StockID,Ticker,CompanyName,Sector,Industry
 19,INTC,Intel,Information Technology,Semiconductors
 20,MA,Mastercard,Financials,Transaction & Payment Processing Services
 21,ABBV,AbbVie,Health Care,Biotechnology
-22,CSCO,Cisco,Information Technology,Communications Equipment
-23,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
-24,ORCL,Oracle Corporation,Information Technology,Application Software
-25,BAC,Bank of America,Financials,Diversified Banks
+22,ORCL,Oracle Corporation,Information Technology,Application Software
+23,CSCO,Cisco,Information Technology,Communications Equipment
+24,PLTR,Palantir Technologies,Information Technology,Application Software
+25,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
