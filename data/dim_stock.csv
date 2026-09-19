@@ -5,8 +5,8 @@ StockID,Ticker,CompanyName,Sector,Industry
 4,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
 5,MSFT,Microsoft,Information Technology,Systems Software
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
-7,META,Meta Platforms,Communication Services,Interactive Media & Services
-8,AVGO,Broadcom,Information Technology,Semiconductors
+7,AVGO,Broadcom,Information Technology,Semiconductors
+8,META,Meta Platforms,Communication Services,Interactive Media & Services
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,MU,Micron Technology,Information Technology,Semiconductors
 11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
