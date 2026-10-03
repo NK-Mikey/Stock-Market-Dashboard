@@ -10,8 +10,8 @@ StockID,Ticker,CompanyName,Sector,Industry
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,MU,Micron Technology,Information Technology,Semiconductors
 11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
-13,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+12,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+13,LLY,Lilly (Eli),Health Care,Pharmaceuticals
 14,JPM,JPMorgan Chase,Financials,Diversified Banks
 15,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
 16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
@@ -23,4 +23,4 @@ StockID,Ticker,CompanyName,Sector,Industry
 22,PLTR,Palantir Technologies,Information Technology,Application Software
 23,CSCO,Cisco,Information Technology,Communications Equipment
 24,LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment
-25,AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment
+25,ORCL,Oracle Corporation,Information Technology,Application Software
