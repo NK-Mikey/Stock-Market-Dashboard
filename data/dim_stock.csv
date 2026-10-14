@@ -8,8 +8,8 @@ StockID,Ticker,CompanyName,Sector,Industry
 7,META,Meta Platforms,Communication Services,Interactive Media & Services
 8,AVGO,Broadcom,Information Technology,Semiconductors
 9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
-10,MU,Micron Technology,Information Technology,Semiconductors
-11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
+10,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
+11,MU,Micron Technology,Information Technology,Semiconductors
 12,LLY,Lilly (Eli),Health Care,Pharmaceuticals
 13,AMD,Advanced Micro Devices,Information Technology,Semiconductors
 14,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
@@ -22,5 +22,5 @@ StockID,Ticker,CompanyName,Sector,Industry
 21,PLTR,Palantir Technologies,Information Technology,Application Software
 22,ABBV,AbbVie,Health Care,Biotechnology
 23,CSCO,Cisco,Information Technology,Communications Equipment
-24,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
+24,ORCL,Oracle Corporation,Information Technology,Application Software
 25,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
