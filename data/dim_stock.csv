@@ -1,6 +1,6 @@
 StockID,Ticker,CompanyName,Sector,Industry
-1,NVDA,Nvidia,Information Technology,Semiconductors
-2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
+1,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
+2,NVDA,Nvidia,Information Technology,Semiconductors
 3,MSFT,Microsoft,Information Technology,Systems Software
 4,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
 5,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
@@ -13,8 +13,8 @@ StockID,Ticker,CompanyName,Sector,Industry
 12,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
 13,MU,Micron Technology,Information Technology,Semiconductors
 14,JPM,JPMorgan Chase,Financials,Diversified Banks
-15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
-16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
+15,V,Visa Inc.,Financials,Transaction & Payment Processing Services
+16,AMD,Advanced Micro Devices,Information Technology,Semiconductors
 17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 19,MA,Mastercard,Financials,Transaction & Payment Processing Services
@@ -22,5 +22,5 @@ StockID,Ticker,CompanyName,Sector,Industry
 21,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
 22,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
 23,PLTR,Palantir Technologies,Information Technology,Application Software
-24,CSCO,Cisco,Information Technology,Communications Equipment
-25,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages
+24,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages
+25,CSCO,Cisco,Information Technology,Communications Equipment
