@@ -1,20 +1,20 @@
 StockID,Ticker,CompanyName,Sector,Industry
-1,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
-2,NVDA,Nvidia,Information Technology,Semiconductors
+1,NVDA,Nvidia,Information Technology,Semiconductors
+2,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
 3,MSFT,Microsoft,Information Technology,Systems Software
 4,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
 5,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
-7,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
-8,META,Meta Platforms,Communication Services,Interactive Media & Services
-9,AVGO,Broadcom,Information Technology,Semiconductors
+7,META,Meta Platforms,Communication Services,Interactive Media & Services
+8,AVGO,Broadcom,Information Technology,Semiconductors
+9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 10,LLY,Lilly (Eli),Health Care,Pharmaceuticals
 11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
 12,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
 13,MU,Micron Technology,Information Technology,Semiconductors
 14,JPM,JPMorgan Chase,Financials,Diversified Banks
-15,V,Visa Inc.,Financials,Transaction & Payment Processing Services
-16,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 19,MA,Mastercard,Financials,Transaction & Payment Processing Services
