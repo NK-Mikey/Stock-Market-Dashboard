@@ -6,15 +6,15 @@ StockID,Ticker,CompanyName,Sector,Industry
 5,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
 7,META,Meta Platforms,Communication Services,Interactive Media & Services
-8,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
-9,AVGO,Broadcom,Information Technology,Semiconductors
-10,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
-11,LLY,Lilly (Eli),Health Care,Pharmaceuticals
+8,AVGO,Broadcom,Information Technology,Semiconductors
+9,TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
+10,LLY,Lilly (Eli),Health Care,Pharmaceuticals
+11,BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings
 12,WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail
 13,JPM,JPMorgan Chase,Financials,Diversified Banks
-14,V,Visa Inc.,Financials,Transaction & Payment Processing Services
-15,MU,Micron Technology,Information Technology,Semiconductors
-16,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+14,MU,Micron Technology,Information Technology,Semiconductors
+15,AMD,Advanced Micro Devices,Information Technology,Semiconductors
+16,V,Visa Inc.,Financials,Transaction & Payment Processing Services
 17,XOM,ExxonMobil,Energy,Integrated Oil & Gas
 18,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals
 19,MA,Mastercard,Financials,Transaction & Payment Processing Services
@@ -23,4 +23,4 @@ StockID,Ticker,CompanyName,Sector,Industry
 22,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
 23,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages
 24,PLTR,Palantir Technologies,Information Technology,Application Software
-25,PG,Procter & Gamble,Consumer Staples,Personal Care Products
+25,CSCO,Cisco,Information Technology,Communications Equipment
