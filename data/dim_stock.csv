@@ -1,7 +1,7 @@
 StockID,Ticker,CompanyName,Sector,Industry
 1,AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals"
-2,MSFT,Microsoft,Information Technology,Systems Software
-3,NVDA,Nvidia,Information Technology,Semiconductors
+2,NVDA,Nvidia,Information Technology,Semiconductors
+3,MSFT,Microsoft,Information Technology,Systems Software
 4,GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services
 5,GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services
 6,AMZN,Amazon,Consumer Discretionary,Broadline Retail
@@ -20,7 +20,7 @@ StockID,Ticker,CompanyName,Sector,Industry
 19,MA,Mastercard,Financials,Transaction & Payment Processing Services
 20,ABBV,AbbVie,Health Care,Biotechnology
 21,COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail
-22,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages
-23,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
+22,CVX,Chevron Corporation,Energy,Integrated Oil & Gas
+23,KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages
 24,PLTR,Palantir Technologies,Information Technology,Application Software
 25,CSCO,Cisco,Information Technology,Communications Equipment
